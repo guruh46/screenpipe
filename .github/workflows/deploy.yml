@@ -24,8 +24,8 @@ jobs:
     - name: Install Node.js Dependencies
       run: npm install
 
-    # Step 4: Build TypeScript project
-    - name: Build TypeScript Project
+    # Step 4: Build Next.js @v14.2.15 project
+    - name: Build Next.js @v14.2.15 Project
       run: npm run build  
 
     # Step 5: Set up Rust
